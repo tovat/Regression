@@ -276,13 +276,12 @@ exp(prediction_intervals)
 
 
 
+#### För att mata in nya bilars data (ålder)
 
 # Ange specifikt datum för bilen
-specific_date <- as.Date("2016-01-05", format = "%Y-%m-%d")  # Byt ut detta mot det faktiska datumet för bilen
-
+#specific_date <- as.Date("2016-01-05", format = "%Y-%m-%d")  # Byt ut detta mot det faktiska datumet för bilen
 # Beräkna ålder för den specifika bilen
-current_date <- Sys.Date()  # Dagens datum
-age_of_car <- as.numeric(difftime(current_date, specific_date, units = "days") / 365.25)
-
+#current_date <- Sys.Date()  # Dagens datum
+#age_of_car <- as.numeric(difftime(current_date, specific_date, units = "days") / 365.25)
 # Visa åldern för den specifika bilen
-age_of_car
+#age_of_car
